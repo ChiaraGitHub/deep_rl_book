@@ -7,6 +7,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 
+# Cross Entropy can learn only at the end of the episodes
 
 HIDDEN_SIZE = 128
 BATCH_SIZE = 16 # number of episodes per iteration
